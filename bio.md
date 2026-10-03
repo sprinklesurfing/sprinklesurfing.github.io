@@ -6,4 +6,4 @@ status: ai-draft
 permalink: /bio/
 ---
 
-<section class="page-intro"><h1>Bio</h1></section>
+<section class="page-intro"><p class="intro-label">About</p><h1>Bio</h1></section>

@@ -14,7 +14,8 @@ a:focus-visible{outline:2px solid var(--focus);outline-offset:4px}
 .site-nav a:hover,.site-nav a[aria-current="page"]{border-color:var(--ink)}
 main{min-height:calc(100vh - 187px)}
 .home-intro{padding:clamp(3.5rem,7vw,6rem) 0 clamp(2.5rem,5vw,4rem)}
-.home-intro h1,.page-intro h1{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(2rem,3.2vw,2.75rem);font-weight:400;line-height:1.15;letter-spacing:-.035em}
+.intro-label{margin:0 0 .65rem;color:var(--muted);font-size:.8rem;letter-spacing:.11em;text-transform:uppercase}
+.home-intro h1,.page-intro h1{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:1.75rem;font-weight:400;line-height:1.2;letter-spacing:-.025em}
 .home-links{margin-bottom:clamp(4rem,7vw,6rem);border-top:1px solid var(--line)}
 .home-links a{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;min-height:82px;padding:1rem 0;border-bottom:1px solid var(--line);text-decoration:none}
 .home-links a:hover .home-link-title{text-decoration:underline;text-underline-offset:.25em}

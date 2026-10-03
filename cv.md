@@ -6,4 +6,4 @@ status: ai-draft
 permalink: /cv/
 ---
 
-<section class="page-intro"><h1>CV</h1></section>
+<section class="page-intro"><p class="intro-label">Experience</p><h1>CV</h1></section>
