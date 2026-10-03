@@ -13,27 +13,15 @@ a:focus-visible{outline:2px solid var(--focus);outline-offset:4px}
 .site-nav a{font-size:.9rem;text-decoration:none;padding:.35rem 0;border-bottom:1px solid transparent}
 .site-nav a:hover,.site-nav a[aria-current="page"]{border-color:var(--ink)}
 main{min-height:calc(100vh - 187px)}
-.home-intro{padding:clamp(5rem,11vw,9rem) 0 clamp(4rem,7vw,6rem)}
-.home-label{margin:0 0 1.2rem;color:var(--muted);font-size:.85rem;letter-spacing:.09em;text-transform:uppercase}
-.home-intro h1,.page-intro h1{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(3.5rem,7vw,6rem);font-weight:400;line-height:1.08;letter-spacing:-.055em}
-.home-intro>p:last-child{max-width:40rem;margin:1.6rem 0 0;color:var(--muted);font-size:clamp(1.1rem,1.8vw,1.35rem)}
-.home-links{margin-bottom:clamp(5rem,9vw,8rem);border-top:1px solid var(--line)}
-.home-links a{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr) auto;align-items:center;gap:1.5rem;min-height:112px;padding:1.2rem 0;border-bottom:1px solid var(--line);text-decoration:none}
+.home-intro{padding:clamp(3.5rem,7vw,6rem) 0 clamp(2.5rem,5vw,4rem)}
+.home-intro h1,.page-intro h1{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(2rem,3.2vw,2.75rem);font-weight:400;line-height:1.15;letter-spacing:-.035em}
+.home-links{margin-bottom:clamp(4rem,7vw,6rem);border-top:1px solid var(--line)}
+.home-links a{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;min-height:82px;padding:1rem 0;border-bottom:1px solid var(--line);text-decoration:none}
 .home-links a:hover .home-link-title{text-decoration:underline;text-underline-offset:.25em}
-.home-link-title{font-family:Georgia,'Times New Roman',serif;font-size:1.7rem;letter-spacing:-.025em}
-.home-link-description{color:var(--muted);font-size:.95rem}
+.home-link-title{font-family:Georgia,'Times New Roman',serif;font-size:1.3rem;letter-spacing:-.02em}
 .home-link-arrow{font-size:1.2rem}
-.eyebrow{margin:0 0 1.2rem;color:var(--muted);font-size:.8rem;letter-spacing:.11em;text-transform:uppercase}
-.page-intro{padding:clamp(4rem,8vw,7rem) 0 3rem;border-bottom:1px solid var(--line)}
-.page-intro h1{max-width:16ch;font-size:clamp(3.2rem,6vw,5.2rem)}
-.page-intro .lead{max-width:42rem;margin:1.7rem 0 0;color:var(--muted);font-size:1.2rem}
-.page-body{display:grid;grid-template-columns:minmax(150px,.45fr) minmax(0,1fr);gap:3rem;padding:3rem 0 7rem}
-.page-body .aside-label{margin:.45rem 0;color:var(--muted);font-size:.8rem;letter-spacing:.11em;text-transform:uppercase}
-.content-panel{max-width:720px}
-.content-panel h2{margin:0 0 .8rem;font-family:Georgia,'Times New Roman',serif;font-size:1.8rem;font-weight:400}
-.content-panel p{margin:.5rem 0;color:var(--muted)}
-.content-panel p+p{margin-top:1rem}
+.page-intro{padding:clamp(3.5rem,7vw,6rem) 0 clamp(2.5rem,5vw,4rem);border-bottom:1px solid var(--line)}
 .site-footer{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid var(--line);padding:1.7rem 0 2.3rem;color:var(--muted);font-size:.85rem}
 .site-footer a{text-decoration:none;color:var(--ink)}
-@media(max-width:760px){.site-header{align-items:flex-start;flex-direction:column;gap:1rem}.home-links a{grid-template-columns:1fr auto;gap:.15rem 1rem;min-height:100px}.home-link-description{grid-column:1}.home-link-arrow{grid-column:2;grid-row:1 / span 2;align-self:center}.page-body{grid-template-columns:1fr;gap:1rem}.site-footer{flex-direction:column}}
+@media(max-width:760px){.site-header{align-items:flex-start;flex-direction:column;gap:1rem}.site-footer{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
