@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.description | default: site.description | escape }}">
-    <meta name="theme-color" content="#f5f2ea">
+    <meta name="theme-color" content="#faf9f6">
     <title>{% if page.title == site.title %}{{ site.title }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
   </head>
@@ -12,7 +12,7 @@
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="site-shell">
       <header class="site-header">
-        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Teaching home"><span class="brand-mark" aria-hidden="true">✳</span><span>Teaching<span class="brand-period">.</span></span></a>
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Tim Wesley home">Tim Wesley</a>
         <nav class="site-nav" aria-label="Main navigation">
           <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
           <a href="{{ '/bio/' | relative_url }}" {% if page.url == '/bio/' %}aria-current="page"{% endif %}>Bio</a>
@@ -21,7 +21,7 @@
         </nav>
       </header>
       <main id="main">{{ content }}</main>
-      <footer class="site-footer"><span>Teaching · a place for useful materials</span><a href="#main">Back to top ↑</a></footer>
+      <footer class="site-footer"><span>Tim Wesley</span><a href="#main">Back to top ↑</a></footer>
     </div>
   </body>
 </html>
