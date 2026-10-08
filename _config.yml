@@ -2,7 +2,7 @@ title: Tim Wesley
 description: Biography, research, and teaching.
 url: https://sprinklesurfing.github.io
 baseurl: ""
-site_version: "2026-10-08-2"
+site_version: "2026-10-08-3"
 markdown: kramdown
 exclude:
   - README.md
