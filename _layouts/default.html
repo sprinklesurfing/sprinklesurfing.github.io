@@ -16,8 +16,8 @@
         <nav class="site-nav" aria-label="Main navigation">
           <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
           <a href="{{ '/bio/' | relative_url }}" {% if page.url == '/bio/' %}aria-current="page"{% endif %}>Bio</a>
-          <a href="{{ '/cv/' | relative_url }}" {% if page.url == '/cv/' %}aria-current="page"{% endif %}>CV</a>
-          <a href="{{ '/teaching/' | relative_url }}" {% if page.url == '/teaching/' %}aria-current="page"{% endif %}>Teaching materials</a>
+          <a href="{{ '/research/' | relative_url }}" {% if page.url == '/research/' %}aria-current="page"{% endif %}>Research</a>
+          <a href="{{ '/teaching/' | relative_url }}" {% if page.url == '/teaching/' %}aria-current="page"{% endif %}>Teaching</a>
         </nav>
       </header>
       <main id="main">{{ content }}</main>
