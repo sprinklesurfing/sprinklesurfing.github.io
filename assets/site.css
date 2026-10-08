@@ -25,6 +25,10 @@ main{min-height:calc(100vh - 187px)}
 .home-photo{margin:0}
 .home-photo img{display:block;width:100%;height:auto}
 .page-intro{padding:clamp(3.5rem,7vw,6rem) 0 clamp(2.5rem,5vw,4rem);border-bottom:1px solid var(--line)}
+.page-section{padding:2rem 0 5rem}
+.page-section h2{margin:0 0 1rem;font-size:1rem;font-weight:600}
+.page-section ul{margin:0;padding-left:1.25rem}
+.page-section li+li{margin-top:.4rem}
 .site-footer{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid var(--line);padding:1.7rem 0 2.3rem;color:var(--muted);font-size:.85rem}
 .site-footer a{text-decoration:none;color:var(--ink)}
 @media(max-width:760px){.site-header{align-items:flex-start;flex-direction:column;gap:1rem}.home-layout{grid-template-columns:1fr;gap:2.5rem}.home-photo{max-width:320px}.site-footer{flex-direction:column}}
